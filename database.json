@@ -1,0 +1,190 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "fullName": "Dion Stoade",
+      "email": "dstoade0@cornell.edu",
+      "isStaff": false
+    },
+    {
+      "id": 2,
+      "fullName": "Windy Thorneloe",
+      "email": "wthorneloe1@usa.gov",
+      "isStaff": false
+    },
+    {
+      "id": 3,
+      "fullName": "Hillie Phillpotts",
+      "email": "hphillpotts2@rakuten.co.jp",
+      "isStaff": false
+    },
+    {
+      "id": 5,
+      "fullName": "Franchot Slator",
+      "email": "fslator8@51.la",
+      "isStaff": true
+    },
+    {
+      "id": 6,
+      "fullName": "Renaud Erbe",
+      "email": "rerbe9@psu.edu",
+      "isStaff": true
+    },
+    {
+      "email": "jeremy@bakker.com",
+      "fullName": "Jeremy Bakker",
+      "isStaff": true,
+      "id": 7
+    }
+  ],
+  "customers": [
+    {
+      "id": 1,
+      "address": "2802 Zula Locks",
+      "phoneNumber": "852-837-9713",
+      "userId": 2,
+      "loyaltyNumber": 12345
+    },
+    {
+      "id": 2,
+      "address": "56849 Fadel Gateway",
+      "phoneNumber": "202-244-7090",
+      "userId": 1,
+      "loyaltyNumber": "12347",
+      "user": {
+        "id": 1,
+        "fullName": "Dion Stoade",
+        "email": "dstoade0@cornell.edu",
+        "isStaff": false
+      }
+    }
+  ],
+  "employees": [
+    {
+      "id": 2,
+      "specialty": "Apple Repair",
+      "userId": 5,
+      "locationId": 2,
+      "startDate": "Wed Mar 01 2023 22:04:17 GMT-0600 (Central Standard Time)",
+      "payRate": 18
+    },
+    {
+      "id": 3,
+      "specialty": "Printer Repair",
+      "userId": 6,
+      "locationId": 3,
+      "startDate": "Sun Sep 24 2023 11:15:31 GMT-0500 (Central Daylight Time)",
+      "payRate": 19
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "peanut butter cups",
+      "price": 3,
+      "quantity": 10,
+      "productTypeId": 1,
+      "locationId": 1
+    },
+    {
+      "id": 2,
+      "name": "suckers",
+      "price": 3,
+      "quantity": 10,
+      "productTypeId": 2,
+      "locationId": 2
+    },
+    {
+      "name": "gummy worms",
+      "price": 3,
+      "quantity": 8,
+      "productTypeId": 3,
+      "locationId": 3,
+      "id": 3
+    },
+    {
+      "name": "jolly ranchers",
+      "price": 3,
+      "quantity": 9,
+      "productTypeId": 2,
+      "locationId": 1,
+      "id": 4
+    }
+  ],
+  "productTypes": [
+    {
+      "id": 1,
+      "category": "chocolates"
+    },
+    {
+      "id": 2,
+      "category": "hard candies"
+    },
+    {
+      "id": 3,
+      "category": "gummies"
+    }
+  ],
+  "locations": [
+    {
+      "id": 1,
+      "name": "Nashville",
+      "address": "7612 Will Fort",
+      "squareFootage": 250
+    },
+    {
+      "id": 2,
+      "name": "Memphis",
+      "address": "78920 Yost Neck",
+      "squareFootage": 300
+    },
+    {
+      "id": 3,
+      "name": "Knoxville",
+      "address": "87149 Lindgren Ports",
+      "squareFootage": 350
+    }
+  ],
+  "purchases": [
+    {
+      "userId": 2,
+      "productId": 3,
+      "id": 1
+    },
+    {
+      "userId": 2,
+      "productId": 1,
+      "id": 2
+    },
+    {
+      "userId": 2,
+      "productId": 1,
+      "id": 3
+    },
+    {
+      "userId": 2,
+      "productId": 4,
+      "id": 4
+    },
+    {
+      "userId": 2,
+      "productId": 4,
+      "id": 5
+    },
+    {
+      "userId": 2,
+      "productId": 3,
+      "id": 6
+    },
+    {
+      "userId": 2,
+      "productId": 4,
+      "id": 7
+    },
+    {
+      "userId": 2,
+      "productId": 3,
+      "id": 8
+    }
+  ]
+}
